@@ -32,7 +32,7 @@ public class SwagLabsDefinition {
 	@When("I enter the username and password")
 	public void i_enter_the_username_and_password() {
 		
-		  driver.findElement(By.id("user-name")).sendKeys("standard_user");
+		  driver.findElement(By.id("user-name")).sendKeys("problem_user");
 		  driver.findElement(By.id("password")).sendKeys("secret_sauce");
 
 		}
